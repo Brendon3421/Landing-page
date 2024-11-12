@@ -25,7 +25,6 @@
     --brand-color-secondary: #FC4A1A;
 
     /* fontes */
-
     --ff-sans: "inter", system-ui, sans-serif;
     --fw-base: 400;
     --fw-md: 500;
@@ -36,7 +35,11 @@
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
-
+    /* com o rem ele olha paara a fonte do narvegador e divide por 16px por exemplo 14 / 16  = 0.875 */
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+    --px-lg: 1.5rem;
 }
 
 html {
@@ -71,19 +74,26 @@ h2 {
 h3 {
     font-size: var(--fs-lg);
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-ul[role="list"]{
+
+ul[role="list"] {
     list-style: none;
 
 }
 
 @media (width>=80em) {
-    :root{
+    :root {
         --fs-lg: 2rem;
         --fs-xl: 3rem;
         --fs-2xl: 4rem;
+
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
+        --px-lg: 2rem;
     }
 }
