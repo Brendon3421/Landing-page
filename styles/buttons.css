@@ -50,7 +50,9 @@
         content: "";
         position: absolute;
         border: inherit;
-        inset: 0.09375rem;
+        inset: 1px;
+    border-radius: .5rem;
+
         background-color: var(--bg-color);
     }
 
