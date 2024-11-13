@@ -11,7 +11,7 @@
 }
 
 .px-lg {
-    padding-block: var(--px-lg);
+    padding: var(--px-lg);
 }
 
 .desktop-only {
